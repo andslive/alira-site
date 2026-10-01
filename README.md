@@ -6,7 +6,7 @@ Site estático responsivo, sem dependências e sem etapa de build. As vendas de 
 
 Bandeiras no cabeçalho: BR (pt-BR), CO (es-CO), MX (es-MX) e AR (es-AR). Toda a página é traduzida ao clicar, inclusive privacidade, informações de uso, metadados e rótulos de acessibilidade. A seleção fica na URL e é lembrada neste navegador por localStorage.
 
-As traduções ficam em translations.js. Ao editar conteúdo, mantenha as quatro versões completas. As imagens das bandeiras são distribuídas junto ao site, a partir de lipis/flag-icons, sob licença MIT; a licença está em assets/flags/LICENSE.
+As traduções ficam em translations.js. Ao editar conteúdo, mantenha as quatro versões completas. As quatro bandeiras estão embutidas diretamente no HTML, a partir de lipis/flag-icons, sob licença MIT. Não dependem do envio da pasta assets para aparecer. As fontes SVG e a licença também estão em assets/flags.
 
 ## Publicar na Vercel
 
