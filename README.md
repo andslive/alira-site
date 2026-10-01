@@ -1,6 +1,12 @@
 # Alira — Site institucional
 
-Site estático responsivo, sem dependências e sem etapa de build.
+Site estático responsivo, sem dependências e sem etapa de build. As vendas de infoprodutos são realizadas exclusivamente pelo WhatsApp.
+
+## Idiomas
+
+Bandeiras no cabeçalho: BR (pt-BR), CO (es-CO), MX (es-MX) e AR (es-AR). Toda a página é traduzida ao clicar, inclusive privacidade, informações de uso, metadados e rótulos de acessibilidade. A seleção fica na URL e é lembrada neste navegador por localStorage.
+
+As traduções ficam em translations.js. Ao editar conteúdo, mantenha as quatro versões completas. As imagens das bandeiras são distribuídas junto ao site, a partir de lipis/flag-icons, sob licença MIT; a licença está em assets/flags/LICENSE.
 
 ## Publicar na Vercel
 
@@ -15,7 +21,7 @@ Alternativa com Vercel CLI instalada: execute `vercel` dentro desta pasta e siga
 ## Contatos
 
 WhatsApp principal: +55 87 99650-9687. Alternativo: +55 74 99194-6784.
-Os contatos podem ser alterados em config.js. E-mail institucional: suporte@aliraconteudos.com.br. Também aparece como link nas páginas HTML, que devem ser atualizadas quando houver mudança de contato.
+Os contatos podem ser alterados em config.js. E-mail institucional: suporte@aliraconteudos.com.br. Os links das páginas HTML também devem ser atualizados para a navegação sem JavaScript. O e-mail é canal de suporte; as vendas são realizadas exclusivamente pelo WhatsApp.
 
 ## Antes da publicação
 
@@ -27,4 +33,10 @@ Os contatos podem ser alterados em config.js. E-mail institucional: suporte@alir
 - Não foram incluídos depoimentos, números de clientes, catálogo fictício ou selo de aprovação.
 - Arquivos cadastrais pessoais e contrato social não são distribuídos junto ao site.
 
-Este pacote foi preparado para publicação pelo usuário e ainda não está hospedado.
+O projeto é publicado pela integração do repositório andslive/alira-site com a Vercel. Um commit na branch main dispara uma nova publicação, conforme as configurações do projeto.
+
+## Visibilidade e plano
+
+Para tornar o repositório privado, abra Settings > General > Danger Zone > Change repository visibility > Change to private e confirme no GitHub.
+
+Para mudar o plano da equipe Vercel, selecione a equipe do projeto e abra Settings > Billing > Plan > Upgrade. A ativação do Pro é uma assinatura paga, confirmada na conta do usuário. O Pro pertence à equipe, não é uma configuração do HTML do site.
